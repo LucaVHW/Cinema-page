@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  padding-left: 40px;
+  overflow: hidden;
+  background-color: steelblue;
+}
+header ul li {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 2px #333;
+}
+header ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.panel0 {
+  background-color: royalblue;
+  display: grid;
+  justify-content: space-around;
+  padding: 10px;
+}
+.panel0 img {
+  border: 3px solid steelblue;
+}
+
+.panel1 {
+  background-color: antiquewhite;
+  padding: 10px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-areas: "img img img img img";
+}
+.panel1 img {
+  border: 3px solid steelblue;
+  height: 250px;
+}
+
+.panel2 {
+  background-color: antiquewhite;
+  padding: 10px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-areas: "img img img img img";
+}
+.panel2 img {
+  border: 3px solid steelblue;
+  height: 250px;
+}
+
+.panel3 {
+  background-color: royalblue;
+  display: grid;
+  justify-content: space-around;
+  padding: 10px;
+}
+.panel3 img {
+  border: 3px solid steelblue;
+}
+
+.panel4 {
+  background-color: antiquewhite;
+  padding: 10px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-areas: "img img img img img";
+}
+.panel4 img {
+  border: 3px solid steelblue;
+  height: 250px;
+}
+
+.panel5 {
+  background-color: antiquewhite;
+  padding: 10px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-areas: "img img img img img";
+}
+.panel5 img {
+  border: 3px solid steelblue;
+  height: 250px;
+}
+
+footer {
+  display: grid;
+  grid-template-areas: "end end2 end3";
+  font-family: "Raleway", sans-serif;
+}
+
+.end {
+  background-color: blue;
+  padding: 10px;
+  display: grid;
+  justify-content: right;
+}
+.end ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.end ul a {
+  text-decoration: none;
+  color: white;
+}
+.end ul a:hover {
+  color: indianred;
+}
+.end ul a li {
+  padding: 2px;
+}
+
+.end2 {
+  background-color: blue;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+}
+.end2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.end2 ul a {
+  text-decoration: none;
+  color: white;
+}
+.end2 ul a:hover {
+  color: indianred;
+}
+.end2 ul a li {
+  padding: 2px;
+}
+
+.end3 {
+  background-color: blue;
+  padding: 10px;
+  display: grid;
+  justify-content: left;
+}
+.end3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.end3 ul a {
+  text-decoration: none;
+  color: white;
+}
+.end3 ul a:hover {
+  color: indianred;
+}
+.end3 ul a li {
+  padding: 2px;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  font-size: 110%;
+}
+
+.login {
+  position: relative;
+  border: 2px solid white;
+  background-color: blue;
+  border-radius: 8px;
+  font-weight: bold;
+  float: right;
+  right: 3%;
+}
+.login a {
+  margin: -4px;
+}
+
+.h a:hover {
+  background-color: lightsteelblue;
+  box-shadow: 2px 2px grey;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
