@@ -1,11 +1,14 @@
 body {
   margin: 0;
   background-color: antiquewhite;
+  background-image: url(https://www.euroscoop.be/content/genk/content-blocks/2019/02/BE_Static_1920x977_AlitaBA_ss_Euroscoop_Takeover_NL_NOW.jpg);
+  background-size: contain;
 }
 
 header ul {
   list-style-type: none;
   margin: 0;
+  height: 50px;
   padding: 5px;
   padding-left: 40px;
   overflow: hidden;
@@ -25,7 +28,7 @@ header ul li a {
 }
 
 .panel0 {
-  background-color: royalblue;
+  background-color: rgba(48, 132, 205, 0.6);
   display: grid;
   justify-content: space-around;
   padding: 10px;
@@ -59,7 +62,7 @@ header ul li a {
 }
 
 .panel3 {
-  background-color: royalblue;
+  background-color: rgba(48, 132, 205, 0.6);
   display: grid;
   justify-content: space-around;
   padding: 10px;
@@ -187,9 +190,9 @@ footer {
 }
 
 .h a:hover {
-  background-color: lightsteelblue;
-  box-shadow: 2px 2px grey;
-  border-radius: 5px;
+  border-bottom: 2px solid beige;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
