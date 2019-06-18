@@ -2,29 +2,33 @@ body {
   margin: 0;
   background-color: antiquewhite;
   background-image: url(https://www.euroscoop.be/content/genk/content-blocks/2019/02/BE_Static_1920x977_AlitaBA_ss_Euroscoop_Takeover_NL_NOW.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header ul {
   list-style-type: none;
   margin: 0;
-  height: 50px;
-  padding: 5px;
-  padding-left: 40px;
+  padding: 0;
   overflow: hidden;
   background-color: steelblue;
+  font-family: 'Open Sans', sans-serif;
 }
-header ul li {
+
+header li {
   float: left;
-  font-family: "Roboto", sans-serif;
-  text-shadow: 1px 2px #333;
 }
-header ul li a {
+
+header li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+header li a:hover {
+  background-color: rgb(2,112,192);
 }
 
 .panel0 {
@@ -102,7 +106,7 @@ footer {
 }
 
 .end {
-  background-color: blue;
+  background-color: steelblue;
   padding: 10px;
   display: grid;
   justify-content: right;
@@ -125,7 +129,7 @@ footer {
 }
 
 .end2 {
-  background-color: blue;
+  background-color: steelblue;
   padding: 10px;
   display: grid;
   justify-content: center;
@@ -148,7 +152,7 @@ footer {
 }
 
 .end3 {
-  background-color: blue;
+  background-color: steelblue;
   padding: 10px;
   display: grid;
   justify-content: left;
@@ -175,22 +179,10 @@ footer {
   color: white;
   font-size: 110%;
 }
-
 .login {
-  position: relative;
-  border: 2px solid white;
-  background-color: blue;
-  border-radius: 8px;
-  font-weight: bold;
   float: right;
-  right: 3%;
 }
-.login a {
-  margin: -4px;
+.reg {
+  float: right;
 }
-
-.h a:hover {
-  border-bottom: 2px solid beige;
-}
-
 /*# sourceMappingURL=style.css.map */
